@@ -1,0 +1,156 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+
+#landing{
+	background-color: #1a5276;
+/*	background-image: url("bg.jpg");*/
+	color: #fdf2e9;
+	font-size: 15px;
+}
+
+
+#modalDiv
+{
+	color: #85c1e9;
+}
+
+
+#landing	h5 {
+	font-style: italic;
+}
+
+#landing img{
+	box-shadow: 5px 0px 0px 1px rgba(0, 0, 0, 0.07);
+}
+
+
+.btn{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.container-right{
+	text-align: center;
+	color: #ba4a00;
+	margin-left: 25px;
+	margin-top: 	10px;
+	margin-bottom: 10px;
+}
+
+.topContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.header-text-box{
+	align-self: center;
+	margin-top: 100px;
+}
+
+.header-text {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+  padding: 20px;
+  padding-top: 0;
+  text-shadow: 1px 1px;
+}
+
+.topContainer h1 {
+  margin-bottom: 30px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  color: #4d5656;
+  text-shadow: 1px 1px;
+
+  /* text-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07); */
+}
+
+.topContainer p{
+	color: #839192;
+}
+
+.tools-container {
+	display: flex;
+	gap:25px;
+	justify-content: center;
+}
+
+.tools-container img{
+	border-radius: 10px;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+}
+/**/
+#tools{
+/*	background-color: #fdf2e9;*/
+/*	border-bottom: 5px solid #aed6f1;*/
+/*	border-top: 5px solid #aed6f1;*/
+	border-radius: 10px;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+	width: 500px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+#tools h3{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #7b7d7d;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+	background-color: #eaecee;
+	text-shadow: 1px 1px;
+}
+
+
+
+
+#projects{
+/*	background-color: #fdf2e9;*/
+	border-bottom: 5px solid #aed6f1;
+	border-top: 5px solid #aed6f1;
+	border-radius: 10px;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+	margin-right: 20px;
+
+}
+
+#projects h3{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #7b7d7d;
+	margin-bottom: 0px;
+	border-bottom: 5px solid #aed6f1;
+	border-radius: 10px;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+	background-color: #eaecee;
+	text-shadow: 1px 1px;
+}
+
+#projects img{
+	height: 500px;
+	width: 400px;
+}
+
+#tools img{
+	height: 	80px;
+	width: 	80px;
+}
+
+.card {
+	border-radius: 10px;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+}
